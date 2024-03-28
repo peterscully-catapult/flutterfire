@@ -3,7 +3,6 @@ description: A common platform interface for the firebase_messaging plugin.
 version: 4.5.29
 homepage: https://github.com/firebase/flutterfire/tree/master/packages/firebase_messaging/firebase_messaging_platform_interface
 repository: https://github.com/firebase/flutterfire/tree/master/packages/firebase_messaging/firebase_messaging_platform_interface
-publish_to: none
 
 environment:
   sdk: ">=2.18.0 <4.0.0"
@@ -13,12 +12,12 @@ dependencies:
   _flutterfire_internals:
     git:
       url: https://github.com/peterscully-catapult/flutterfire
-      ref: fb8dcdd8244d239666c8dc8b1ac83cc6e8ca1824
+      ref: 3cd2514c68fb4066b752884d947754541a4cb6e1
       path: packages/_flutterfire_internals
   firebase_core:
     git:
       url: https://github.com/peterscully-catapult/flutterfire
-      ref: 6510623c091a413338a9e32c04836f93c6c07d99
+      ref: ecfe106448dc117bce6ad893971973fb4f664583
       path: packages/firebase_core/firebase_core
   flutter:
     sdk: flutter
