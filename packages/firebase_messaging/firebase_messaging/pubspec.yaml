@@ -4,7 +4,6 @@ description: Flutter plugin for Firebase Cloud Messaging, a cross-platform
 homepage: https://firebase.google.com/docs/cloud-messaging
 repository: https://github.com/firebase/flutterfire/tree/master/packages/firebase_messaging/firebase_messaging
 version: 14.7.21
-publish_to: none
 
 false_secrets:
   - example/**
@@ -17,18 +16,18 @@ dependencies:
   firebase_core:
     git:
       url: https://github.com/peterscully-catapult/flutterfire
-      ref: 6510623c091a413338a9e32c04836f93c6c07d99
+      ref: ecfe106448dc117bce6ad893971973fb4f664583
       path: packages/firebase_core/firebase_core
   firebase_core_platform_interface: ^5.0.0
   firebase_messaging_platform_interface:
     git:
       url: https://github.com/peterscully-catapult/flutterfire
-      ref: 58dcd1e3507db5bd9e7761871a968be1da40e097
+      ref: 0a4d2cb89d0d64390f3f46b4a26f98daa403abea
       path: packages/firebase_messaging/firebase_messaging_platform_interface
   firebase_messaging_web:
     git:
       url: https://github.com/peterscully-catapult/flutterfire
-      ref: e58f03e6a9eaa13b707ea80e57cffc06ae3ae61f
+      ref: a71f3b3a40440aab34fc8960be72ba545a513e96
       path: packages/firebase_messaging/firebase_messaging_web
   flutter:
     sdk: flutter
