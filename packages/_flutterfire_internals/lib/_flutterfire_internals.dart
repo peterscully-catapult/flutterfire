@@ -11,7 +11,7 @@
 // This file exports utilities shared between firebase packages, without making
 // them public.
 
-import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_core_platform_interface/firebase_core_platform_interface.dart';
 
 import 'src/interop_shimmer.dart'
     if (dart.library.js) 'package:firebase_core_web/firebase_core_web_interop.dart'
