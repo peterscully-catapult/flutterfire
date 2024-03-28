@@ -18,7 +18,7 @@ dependencies:
   firebase_core_web:
     git:
       url: https://github.com/peterscully-catapult/flutterfire
-      ref: d2e78dfa222a1e1bffb56b2773262aa87eb9135c
+      ref: e5ca11e93ae1a7f791643939bc9a269c5010bf93
       path: packages/firebase_core/firebase_core_web
   flutter:
     sdk: flutter
