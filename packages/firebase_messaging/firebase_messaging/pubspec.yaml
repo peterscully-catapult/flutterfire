@@ -17,14 +17,18 @@ dependencies:
   firebase_core:
     git:
       url: https://github.com/peterscully-catapult/flutterfire
-      ref: e5ca11e93ae1a7f791643939bc9a269c5010bf93
+      ref: 6510623c091a413338a9e32c04836f93c6c07d99
       path: packages/firebase_core/firebase_core
   firebase_core_platform_interface: ^5.0.0
-  firebase_messaging_platform_interface: ^4.5.29
+  firebase_messaging_platform_interface:
+    git:
+      url: https://github.com/peterscully-catapult/flutterfire
+      ref: 58dcd1e3507db5bd9e7761871a968be1da40e097
+      path: packages/firebase_messaging/firebase_messaging_platform_interface
   firebase_messaging_web:
     git:
       url: https://github.com/peterscully-catapult/flutterfire
-      ref: e5ca11e93ae1a7f791643939bc9a269c5010bf93
+      ref: e58f03e6a9eaa13b707ea80e57cffc06ae3ae61f
       path: packages/firebase_messaging/firebase_messaging_web
   flutter:
     sdk: flutter
