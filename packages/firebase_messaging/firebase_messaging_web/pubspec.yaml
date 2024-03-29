@@ -3,6 +3,7 @@ description: The web implementation of firebase_messaging
 homepage: https://github.com/firebase/flutterfire/tree/master/packages/firebase_messaging/firebase_messaging_web
 repository: https://github.com/firebase/flutterfire/tree/master/packages/firebase_messaging/firebase_messaging_web
 version: 3.7.1
+publish_to: none
 
 environment:
   sdk: ">=3.2.0 <4.0.0"
@@ -12,12 +13,12 @@ dependencies:
   _flutterfire_internals:
     git:
       url: https://github.com/peterscully-catapult/flutterfire
-      ref: 3cd2514c68fb4066b752884d947754541a4cb6e1
+      ref: 12b0089b1b10f6ceb2acc81ecf03bd78f1594e45
       path: packages/_flutterfire_internals
   firebase_core:
     git:
       url: https://github.com/peterscully-catapult/flutterfire
-      ref: ecfe106448dc117bce6ad893971973fb4f664583
+      ref: cbe35144bfdcc28ebaa6e7fd99f0367c7f08519e
       path: packages/firebase_core/firebase_core
   firebase_core_web:
     git:
@@ -27,7 +28,7 @@ dependencies:
   firebase_messaging_platform_interface:
     git:
       url: https://github.com/peterscully-catapult/flutterfire
-      ref: 0a4d2cb89d0d64390f3f46b4a26f98daa403abea
+      ref: 1300c8a4a6ad7f867949582169f760248339e229
       path: packages/firebase_messaging/firebase_messaging_platform_interface
   flutter:
     sdk: flutter
